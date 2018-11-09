@@ -1,0 +1,11 @@
+{
+    "usingComponents": {
+      "van-tabbar": "/dist/tabbar/index",
+      "van-tabbar-item": "/dist/tabbar-item/index",
+      "van-card": "/dist/card/index",
+      "van-tag": "/dist/tag/index",
+      "van-button": "/dist/button/index",
+      "van-nav-bar": "/dist/nav-bar/index"
+    },
+    "enablePullDownRefresh": true
+}

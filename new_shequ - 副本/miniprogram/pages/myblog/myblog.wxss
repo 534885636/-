@@ -1,0 +1,52 @@
+.list {
+  border-bottom: solid 2rpx #eee;
+  margin: 8rpx 10rpx;
+  justify-content: space-between;
+}
+
+
+image {
+  margin: 4rpx 10rpx;
+  width: 300rpx;
+  border: 2rpx solid #eee;
+}
+
+.title {
+  margin: 4rpx 10rpx;
+  /* border: solid 2rpx black; */
+  font-family: 微软雅黑;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.author {
+  margin: 4rpx 10rpx;
+  /* border: solid 2rpx black; */
+  font-family: 微软雅黑;
+  font-size: x-small;
+  font-style: italic;
+  color: rgb(95, 93, 93);
+}
+
+.content {
+  margin: 4rpx 10rpx;
+  font-family: 微软雅黑;
+  /* border: solid 2rpx black; */
+}
+
+.button {
+  flex-direction: row-reverse;
+  margin-bottom: 10rpx;
+}
+
+.bottom {
+  margin: 4rpx 10rpx;
+  font-family: 微软雅黑;
+  font-size: larger;
+  font-weight: bold;
+  align-self: center;
+}
+
+.btn{
+  
+}

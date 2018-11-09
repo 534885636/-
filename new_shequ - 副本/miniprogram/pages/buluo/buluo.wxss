@@ -1,0 +1,89 @@
+/* pages/buluo/buluo.wxss */
+.buluo{
+  margin: 200rpx 16rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.work{
+  margin: 30rpx 6rpx;
+  border: solid 4rpx green;
+  background-color: green;
+  color: white;
+  width: 43%;
+  height: 160rpx;
+  box-shadow:4px 4px 3px #aadd7b;
+  border-radius: 10rpx;
+  outline: ridge 1rpx yellow;
+  text-align: center;
+}
+text{
+  display:inline-block;
+  margin-top: 50rpx;
+}
+
+.book{
+  margin: 30rpx 6rpx;
+  border: solid 4rpx rgba(29, 176, 202, 0.651);
+  background-color: rgba(29, 176, 202, 0.651);
+  color: white;
+  width: 43%;
+  height: 160rpx;
+  box-shadow:4px 4px 3px #aee3f0;
+  border-radius: 10rpx;
+  outline: ridge 1rpx yellow;
+  text-align: center;
+}
+
+.sell{
+  margin: 30rpx 6rpx;
+  border: solid 4rpx rgba(71, 41, 182, 0.664);
+  background-color: rgba(71, 41, 182, 0.664);
+  color: white;
+  width: 43%;
+  height: 160rpx;
+  box-shadow:4px 4px 3px #c67bdd;
+  border-radius: 10rpx;
+  outline: ridge 1rpx yellow;
+  text-align: center;
+}
+
+.nice{
+  margin: 30rpx 6rpx;
+  border: solid 4rpx blue;
+  background-color: blue;
+  color: white;
+  width: 43%;
+  height: 160rpx;
+  box-shadow:4px 4px 3px #73bdcfc2;
+  border-radius: 10rpx;
+  outline: ridge 1rpx yellow;
+  text-align: center;
+}
+
+.hobby{
+  margin: 30rpx 6rpx;
+  border: solid 4rpx red;
+  background-color: red;
+  color: white;
+  width: 43%;
+  height: 160rpx;
+  box-shadow:4px 4px 3px #b160607a;
+  border-radius: 10rpx;
+  outline: ridge 1rpx yellow;
+  text-align: center;
+}
+
+.talk{
+  margin: 30rpx 6rpx;
+  border: solid 4rpx orange;
+  background-color: orange;
+  color: white;
+  width: 43%;
+  height: 160rpx;
+  box-shadow:4px 4px 3px yellowgreen;
+  border-radius: 10rpx;
+  outline: ridge 1rpx yellow;
+  text-align: center;
+}

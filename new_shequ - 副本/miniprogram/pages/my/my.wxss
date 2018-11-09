@@ -1,0 +1,64 @@
+/* pages/my/my.wxss */
+
+.btn {
+  margin: 300rpx auto auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.words{
+  margin: 200rpx auto auto;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  margin: 100rpx auto 60rpx auto;
+}
+
+.img image {
+  height: 260rpx;
+  width: 260rpx;
+  border-radius: 50%;
+}
+
+.username {
+  display: flex;
+  justify-content: center;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.my {
+  /* border: solid 2rpx black; */
+}
+
+.my .my1 {
+  display: flex;
+  margin: 100rpx 80rpx 10rpx 80rpx;
+  border-bottom: solid 1rpx rgba(151, 149, 149, 0.151);
+  justify-content: space-between;
+  /* border: solid 2rpx black;  */
+}
+
+.my .my2 {
+  display: flex;
+  margin: 60rpx 80rpx 10rpx 80rpx;
+  border-bottom: solid 1rpx rgba(151, 149, 149, 0.151);
+  justify-content: space-between;
+  /* border: solid 2rpx black; */
+}
+
+.icon-open-new {
+  background-image: url("data:image/svg+xml,%3Csvg class='icon' viewBox='0 0 1024 1024' xmlns='http://www.w3.org/2000/svg' data-spm-anchor-id='a313x.7781069.0.i0' width='200' height='200'%3E%3Cdefs%3E%3Cstyle/%3E%3C/defs%3E%3Cpath d='M380.003 802.681c-7.783 0-15.559-3.007-21.437-9.005-11.602-11.836-11.41-30.838.428-42.44l243.52-238.665-243.52-238.666c-11.838-11.602-12.03-30.603-.428-42.44 11.603-11.838 30.603-12.028 42.44-.427l265.388 260.099a30.01 30.01 0 0 1 0 42.868L401.006 794.103a29.916 29.916 0 0 1-21.003 8.578z'/%3E%3C/svg%3E");
+  background-size: cover;
+}
+
+.icon {
+  display: inline-block;
+  width: 50rpx;
+  height: 50rpx;
+  margin: 4rpx;
+  /* border: solid 2rpx black; */
+}

@@ -1,0 +1,21 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/add/add",
+    "pages/buluo/buluo",
+    "pages/my/my",
+    "pages/myblog/myblog",
+    "pages/myreply/myreply",
+    "pages/detail/detail",
+    "pages/buluo2/buluo2"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "联通兴趣部落",
+    "navigationBarTextStyle": "black"
+  }
+  
+}

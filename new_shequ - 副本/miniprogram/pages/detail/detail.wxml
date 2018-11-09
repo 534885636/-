@@ -1,0 +1,33 @@
+<view class='content'>
+  <view class='title'>{{blog.title}}</view>
+  <view class='author'>作者：{{blog.nickname}}</view>
+  <view class='author'>来自：{{item}}</view>
+  <image mode='widthFix' src="{{blog.cover}}" class="van-card__img thumb-class" />
+  <view class='words'>正文：{{blog.content}}</view>
+  <view hidden='{{hidden}}'>
+    <button type='primary' size='mini' bindtap='deleteBlog'>删除帖子</button>
+    <van-dialog id="van-dialog" />
+  </view>
+</view>
+
+<view class='reply'>
+  <view class='reply_1'>
+    <text>全部回复</text>
+    <van-button class='btn' type="primary" size="small" bind:click='refresh'>刷新</van-button>
+  </view>
+  <view class='all' wx:for="{{reply_list}}" data-id="{{item._id}}">
+    <view class='username'>{{item.nickname}}</view>
+    <view class='reply'>{{item.content}}</view>
+    <view class='time'>{{item.time}}</view>
+    <view hidden='{{item._openid==openid?false:true}}'>
+      <button type='primary' size='mini' ontap='deleteReply' data-id="{{item._id}}">删除评论</button>
+    </view>
+  </view>
+
+</view>
+<view class='container'>
+  <form bindsubmit="addReply">
+    <textarea name="content" auto-height placeholder="请输入评论内容" maxlength="1000" />
+    <button form-type="submit" type="primary">提交</button>
+  </form>
+</view>

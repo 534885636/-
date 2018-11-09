@@ -1,0 +1,18 @@
+<van-nav-bar
+  title="{{title}}"
+  right-text="发帖"
+  bind:click-right="onClickRight"
+/>
+
+
+<view class='list' wx:for="{{blog_list}}" ontap = "detail" data-id="{{item._id}}">
+  <!-- <view class='left' ontap = "detail" data-id="{{item._id}}"> -->
+    <view class='title'>{{item.title}}</view>
+    <view class='author'>{{item.nickname}}</view>
+    <view class='author'>{{item.current}}</view>
+    <view class='content'>{{item.content}}</view>
+    <image mode='widthFix' src="{{item.cover}}" class="van-card__img thumb-class" />
+  <!-- </view> -->
+</view>
+
+<view class='bottom'>到头啦</view>

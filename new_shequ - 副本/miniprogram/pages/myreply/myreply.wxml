@@ -1,0 +1,12 @@
+<view class='list' wx:for="{{reply_list}}" ontap="detail" data-id="{{item._id}}">
+  <!-- <view class='left' ontap = "detail" data-id="{{item._id}}"> -->
+  <view class='author'>{{item.nickname}}</view>
+  <view class='author'>{{item.time}}</view>
+  <view class='content'>回复：{{item.content}}</view>
+  <view class='title'>原贴：{{item.title}}</view>
+
+
+  <!-- </view> -->
+</view>
+
+<view class='bottom'>到头啦</view>

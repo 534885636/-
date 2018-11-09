@@ -1,0 +1,12 @@
+<view class='list' wx:for="{{blog_list}}" ontap="detail" data-id="{{item._id}}">
+  <!-- <view class='left' ontap = "detail" data-id="{{item._id}}"> -->
+  <view class='title'>{{item.title}}</view>
+  <view class='author'>{{item.nickname}}</view>
+  <view class='author'>{{item.current}}</view>
+  <view class='content'>{{item.content}}</view>
+  <image mode='widthFix' src="{{item.cover}}" class="van-card__img thumb-class" />
+  <!-- <button class='btn' type='primary' size='mini' bindtap='delete'>删除</button> -->
+
+</view>
+
+<view class='bottom'>到头啦</view>
